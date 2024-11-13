@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pousada Valeu Natalina</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+             
+        <a href="index.html">
+            <img class="img" src="imagem/logopousada.png">
+         </a>
+     <a href="index.html">
+        <h1>Pousada Valeu Natalina</h1>
+     </a>
+        <nav>
+            <ul>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="acomodacoes.html">Acomodações</a></li>
+                <li><a href="regulamento.html">Regulamento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   
+    <section id="sobre">
+        <h2>Bem-vindo à Pousada Valeu Natalina</h2>
+        <p style=" text-align: center;">Localizada em Florença, nossa pousada oferece conforto e tranquilidade para suas férias, principalmente no natal.</p> 
+        <video autoplay muted width="150" height="600" controls>
+            <source src="imagem/videopousadanatalina.mp4" type="video/mp4">
+          </video>
+    </section>
+
+    <!-- Seção Serviços -->
+    <section id="servicos">
+        <h2>Serviços Oferecidos</h2>
+        <div class="servico">
+            <h3>Quartos Confortáveis</h3>
+            <p>Quartos com ar-condicionado, Wi-Fi e vista para o mar.</p>
+        </div>
+        <div class="servico">
+            <h3>Área de Lazer</h3>
+            <p>Piscina, churrasqueira e área para relaxamento.</p>
+        </div>
+        <div class="servico">
+            <h3>Café da Manhã</h3>
+            <p>Delicioso café da manhã incluso na diária.</p>
+        </div>
+    </section>
+
+    <!-- Seção Galeria -->
+    <section id="galeria">
+        <h2>Galeria de Fotos</h2>
+        <div class="galeria-imagens">
+            <img src="imagem/paraiso.jpg" alt="Imagem 1">
+            <img src="imagem/piquenique.jpg " alt="Imagem 2">
+            <img src="imagem/varandaquarto.jpg" alt="Imagem 3">
+            <img src="imagem/hall_piscina.jpg" alt="Imagem 4">
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <form id="form-contato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 <a href="https://www.youtube.com/watch?v=ZRHiNuB2gdU">Pousada Valeu Natalina</a>. Todos os direitos reservados a Brenno Gomes Araujo.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
